@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fillerbiomes",
+  "version": "${version}",
+
+  "name": "Filler Biomes",
+  "description": "Filler Biomes: Vanilla style biomes that I would think would fit in Minecraft!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.vdragondev.fillerbiomes.FillerBiomes"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
